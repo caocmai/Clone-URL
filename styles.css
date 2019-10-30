@@ -1,0 +1,71 @@
+.hero-background-img {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+    padding-top:200px;  
+    padding-bottom:200px;
+  }
+  
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://www.hersheys.com/content/dam/reeses/en_us/images/home/reeses_spooky_basket_left.jpg?fmt=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1.8; /* Tone the image down further by giving it transparency */
+  }
+
+  .h1_color {
+      margin-top: 12px !important;
+      color: orange
+  }
+
+  .more_cups{
+      color: white;
+      background-color: brown
+  }
+
+  .navbar_custom {
+      background-color: rgb(54, 18, 18) !important;
+  }
+
+  .navbar_custom2 {
+      background-color: rgb(235, 82, 21) !important;
+  }
+
+  .mr-auto {
+    margin-right: auto !important;
+  }
+
+  .center-block {
+      text-align: center !important;
+  }
+  .halloween {
+      color: rgb(68, 25, 25)
+  }
+  .lead {
+      color: rgb(168, 61, 61) !important;
+  }
+  .answer{
+      background-color: yellow;
+  }
+  .orange {
+      background-color: orange;
+      
+  }
+  .sign_up {
+      margin-left: 4em;
+      margin-right: 4em;
+      margin-top: 4em;
+      margin-bottom: 4em;
+  }
+  .footer_custom {
+      color:black !important;
+      background-color: white !important;
+  }
